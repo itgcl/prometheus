@@ -1,2 +1,2 @@
 # prometheus
-go rometheus
+go prometheus

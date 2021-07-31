@@ -43,6 +43,8 @@ prometheus监控指标分为两种
 
    > 示例代码： [暴露http接口方式](https://github.com/itgcl/prometheus/example/http)
 
+   
+
 2. 服务端主动push，将指标信息push到一个中间网关**(pushgateway)**， prometheus定时去中间网关拉取数据。
 
    ```go
@@ -99,4 +101,4 @@ gauge.WithLabelValues("fail", "db_exec_error").Inc()
 
 ```
 
-示例代码： [push方式](https://github.com/itgcl/prometheus/example/pushgateway/v2)
+示例代码： [解决注册相同指标信息问题](https://github.com/itgcl/prometheus/example/pushgateway/v2)

@@ -20,7 +20,7 @@ go get github.com/prometheus/client_golang/prometheus
 
 #### 架构图
 
-![20180906141552432](C:\Users\dell\Desktop\20180906141552432.png)
+![](E:\code\go\src\prometheus\image\prometheus.png)
 
 #### 指标计数使用方式
 
